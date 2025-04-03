@@ -1,3 +1,13 @@
+Certainly! Below is a README template for your GitHub repository:
+
+---
+
+# AgriWise
+
+
+
+<img width="639" alt="Screenshot 2025-03-20 at 1 40 01 PM" src="https://github.com/user-attachments/assets/57252e1b-6f79-402f-b201-05fccce08021" />
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
