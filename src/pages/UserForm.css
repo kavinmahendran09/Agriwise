@@ -1,0 +1,33 @@
+/* UserForm.css */
+.user-form-container {
+    background-color: #f8f9fa;
+    min-height: 100vh;
+}
+
+.form-card {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.text-green {
+    color: #28a745;
+}
+
+.btn-primary-green {
+    background-color: #28a745;
+    border-color: #28a745;
+    color: white;
+}
+
+.btn-primary-green:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+.alert-danger {
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    color: #721c24;
+}

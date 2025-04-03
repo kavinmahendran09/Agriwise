@@ -1,0 +1,218 @@
+/* Professional styling for AgriWise landing page */
+
+/* Hero section with gradient */
+.hero-section {
+    background: linear-gradient(135deg, #2e7d32 0%, #1b5e20 100%);
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .hero-shape {
+    position: absolute;
+    top: -50%;
+    right: -10%;
+    width: 60%;
+    height: 140%;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    z-index: 0;
+  }
+  
+  .hero-image {
+    position: relative;
+    z-index: 1;
+    transition: transform 0.5s ease;
+  }
+  
+  .hero-image:hover {
+    transform: translateY(-10px);
+  }
+  
+  /* CTA section with gradient */
+  .cta-section {
+    background: linear-gradient(135deg, #2e7d32 0%, #1b5e20 100%);
+    position: relative;
+    overflow: hidden;
+  }
+  
+  /* Feature cards */
+  .feature-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 12px;
+    overflow: hidden;
+  }
+  
+  .feature-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1) !important;
+  }
+  
+  .feature-icon-wrapper {
+    position: relative;
+    display: inline-block0,0,0.1 !important;
+  }
+  
+  .feature-icon-wrapper {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .feature-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 64px;
+    height: 64px;
+    border-radius: 12px;
+    margin-bottom: 1rem;
+  }
+  
+  .feature-list {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 1.5rem;
+  }
+  
+  .feature-list li {
+    position: relative;
+    padding-left: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #6c757d;
+  }
+  
+  .feature-list li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: #2e7d32;
+    font-weight: bold;
+  }
+  
+  .feature-link {
+    color: #2e7d32;
+    text-decoration: none;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    transition: color 0.2s ease;
+  }
+  
+  .feature-link:hover {
+    color: #1b5e20;
+  }
+  
+  /* Feature check icons */
+  .feature-check-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: rgba(46, 125, 50, 0.1);
+    color: #2e7d32;
+  }
+  
+  /* Testimonial cards */
+  .testimonial-card {
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+  }
+  
+  .testimonial-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .testimonial-stars {
+    color: #ffc107;
+    letter-spacing: 2px;
+  }
+  
+  .testimonial-quote {
+    position: relative;
+    color: #6c757d;
+  }
+  
+  .testimonial-quote::before {
+    font-size: 4rem;
+    position: absolute;
+    top: -2rem;
+    left: -1rem;
+    color: rgba(46, 125, 50, 0.1);
+    z-index: 0;
+  }
+  
+  /* Newsletter form */
+  .newsletter-form .form-control {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border: 1px solid #ced4da;
+  }
+  
+  .newsletter-form .btn {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  
+  /* Footer styling */
+  .footer-links a {
+    color: #adb5bd;
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+  
+  .footer-links a:hover {
+    color: #ffffff;
+  }
+  
+  .social-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+    text-decoration: none;
+    transition: background 0.2s ease;
+  }
+  
+  .social-icon:hover {
+    background: rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .display-4 {
+      font-size: 2.5rem;
+    }
+    
+    .display-5 {
+      font-size: 2rem;
+    }
+    
+    .display-6 {
+      font-size: 1.75rem;
+    }
+  }
+  
+  /* Animation for dashboard and chatbot previews */
+  .dashboard-preview img, .chatbot-demo img {
+    transition: transform 0.5s ease, box-shadow 0.3s ease;
+  }
+  
+  .dashboard-preview img:hover, .chatbot-demo img:hover {
+    transform: scale(1.02);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15) !important;
+  }
+  
+  /* Language badges */
+  .language-badges .badge {
+    font-size: 0.85rem;
+    padding: 0.5rem 0.75rem;
+    border-radius: 50px;
+  }
+  
+  
